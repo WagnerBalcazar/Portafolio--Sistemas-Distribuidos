@@ -5,3 +5,14 @@ __pycache__/
 *.pyc
 .vite/
 *.class
+
+# Datos del broker Mosquitto (sin permisos de lectura, no deben subirse)
+Sistemas-Distribuidos/Unidad 1/APE5/practica_mqtt_rabbitmq/mosquitto/data/
+
+# APE3 y APE6: subir solo los PDF, no el código fuente
+Sistemas-Distribuidos/Unidad 1/APE3-SISTEMAS-DISTRIBUIDOS/**
+!Sistemas-Distribuidos/Unidad 1/APE3-SISTEMAS-DISTRIBUIDOS/
+!Sistemas-Distribuidos/Unidad 1/APE3-SISTEMAS-DISTRIBUIDOS/*.pdf
+Sistemas-Distribuidos/Unidad 1/APE6_SD/**
+!Sistemas-Distribuidos/Unidad 1/APE6_SD/
+!Sistemas-Distribuidos/Unidad 1/APE6_SD/*.pdf
